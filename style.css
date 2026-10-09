@@ -1,8 +1,10 @@
 :root {
-    --primary-bg: rgb(53, 53, 53);
-    --primary-text: white;
-    --secondary-bg: white;
-    --accent-color: white;
+    --primary-bg: #2a5233;
+    --primary-text: rgb(198, 255, 208);
+    --secondary-bg: #3b6e40;
+    --article-bg: #396138;
+    --secondary-accent: #65976f;
+    --accent-color: #bbdfa7;
     --standard-gap: 30px;
     --standard-padding: 5px;
 }
@@ -17,35 +19,35 @@ body {
 /* #2 */
 #projects article {
     margin: var(--standard-gap);
-    background: rgb(99, 99, 98);
+    background: var(--article-bg);
     padding: var(--standard-padding);
     border-radius: 5px;
 }
 
 /* #3 */
 nav {
-    background: rgb(99, 99, 98);
-    border-radius: 5px;
+    margin: var(--standard-gap);
+    background: var(--secondary-bg);
     padding: var(--standard-padding);
+    border-radius: 10px;
 }
 
 /* #4 */
 a {
-    color: blue;
+    color: var(--accent-color);
     border-radius: 5px;
-    background: rgb(99, 99, 98);
     text-decoration: none;
 }
 
 /* #5 */
 a:hover {
-    color: rgb(14, 14, 122);
+    color: var(--secondary-accent);
 }
 
 /* #6 */
 #about article {
     margin: var(--standard-gap);
-    background: rgb(99, 99, 98);
+    background: var(--article-bg);
     padding: var(--standard-padding);
     border-radius: 5px;
 }
@@ -53,7 +55,7 @@ a:hover {
 /* #6 */
 #contact address {
     margin: var(--standard-gap);
-    background: rgb(99, 99, 98);
+    background: var(--article-bg);
     padding: var(--standard-padding);
     border-radius: 5px;
 }
@@ -77,18 +79,63 @@ header {
 
 /* 10 */
 h3 {
-    text-shadow: 1px 1px 2px rgb(65, 65, 65);
+    text-shadow: 1px 1px 2px var(--accent-color);
 }
 
 /* 11 */
 .content-p {
-    background: darkgray;
+    background: var(--secondary-accent);
     padding: var(--standard-padding);
     border-radius: 5px;
 }
 
 /* 12 */
 h2 {
-
+    text-align: center;
 }
 
+/* 13 */
+main {
+    margin: var(--standard-gap);
+    background: var(--secondary-bg);
+    padding: var(--standard-padding);
+    border-radius: 10px;
+}
+
+/* #14 */
+li {
+    color: var(--accent-color);
+}
+
+/* #15 */
+article a {
+    color: var(--accent-color);
+}
+
+/* #16 */
+.dropshadow {
+    filter: drop-shadow(0 0 0.25rem var(--accent-color));
+}
+
+/* #17 */
+p {
+    padding: var(--standard-padding);
+}
+
+/* #18 */
+h1 {
+    text-shadow:
+        1px 1px 2px var(--accent-color),
+        0 0 1em var(--secondary-bg),
+        0 0 0.2em var(--secondary-bg);
+}
+
+/* #19 */
+header p {
+    color: var(--secondary-accent);
+}
+
+/* #20 */
+footer p {
+    color: var(--secondary-accent);
+}
