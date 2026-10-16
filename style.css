@@ -70,10 +70,24 @@ a:hover {
 #about article {
     display: flex;
     align-items: center;
-    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1em;
     background: var(--article-bg);
     border-radius: 5px;
     padding: var(--standard-padding);
+}
+
+/* Prompt For Copilot */
+/* Give my img rule a simliar border/drop shadow as the .dropshadow class. Then align the h3 text in the #about article rule to the left side of the image so that they are side by side and centered but above the paragraph with a 1em gap between them, Also make the h3 text bolded and 3x the size. */
+
+#about article h3 {
+    font-size: 3em;
+    font-weight: bold;
+}
+
+#about article p {
+    flex-basis: 100%;
 }
 
 @media (min-width: 400px) {
@@ -127,6 +141,8 @@ footer {
 img {
     border-radius: 20px;
     width: 20%;
+    border: 2px solid var(--accent-color);
+    filter: drop-shadow(0 0 0.25rem var(--accent-color));
 }
 
 /* #9 */
