@@ -210,5 +210,5 @@ header p {
 
 /* #20 */
 footer p {
-    color: var(--secondary-accent);
+    color: var(--primary-text);
 }
