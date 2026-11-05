@@ -1,12 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c&display=swap');
 
 :root {
-    --primary-bg: #2a5233;
+    --primary-bg: #203b26;
     --primary-text: rgb(247, 247, 247);
     --secondary-bg: #3b6e40;
     --article-bg: #396138;
-    --secondary-accent: #589263;
-    --accent-color: #bbdfa7;
+    --secondary-accent: #347b43;
+    --accent-color: #e2ffd2;
     --standard-gap: 30px;
     --standard-padding: 10px;
 }
@@ -205,7 +205,7 @@ h1 {
 
 /* #19 */
 header p {
-    color: var(--secondary-accent);
+    color: var(--primary-text);
 }
 
 /* #20 */
