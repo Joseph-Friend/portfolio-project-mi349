@@ -2,7 +2,7 @@
 
 :root {
     --primary-bg: #203b26;
-    --primary-text: rgb(247, 247, 247);
+    --primary-text: #ffffff;
     --secondary-bg: #3b6e40;
     --article-bg: #396138;
     --secondary-accent: #347b43;
@@ -56,6 +56,12 @@ nav ul li a {
 
 /* #4 */
 a {
+    color: var(--accent-color);
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+span {
     color: var(--accent-color);
     border-radius: 5px;
     text-decoration: none;
