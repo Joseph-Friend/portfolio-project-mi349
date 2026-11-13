@@ -7,6 +7,7 @@
     <meta name="description" content="Joseph Friend's Portfolio Website.">
     <meta name="keywords" content="Portfolio, Programmer, Game Designer, App Developer">
     <link rel="stylesheet" href="style.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <title>Joseph Friend's - Portfolio</title>
 </head>
 
@@ -15,7 +16,7 @@
         <h1>Joseph Friend - Portfolio</h1>
         <p>A website for my projects and resume</p>
     </header>
-    <nav class="dropshadow">
+    <nav data-aos="fade-right" class="dropshadow">
         <ul>
             <li><a href="#projects">Projects</a></li>
             <li><a href="#about">About</a></li>
@@ -27,9 +28,9 @@
         </label>
     </nav>
     <main class="dropshadow">
-        <section id="projects">
+        <section data-aos="fade-left" id="projects">
             <h2>- Projects -</h2>
-            <article>
+            <article data-aos="flip-up">
                 <h3>Media Assistant</h3>
                 <p class="content-p">Media Assistant is an open-source Roku app that allows you to stream/play local and
                     hosted media on your Roku device through cast-style API requests. It was built to easily work in
@@ -41,7 +42,7 @@
                 <a href="https://medievalapple.net/media-assistant/setup.html">Learn more on the Media Assistant's
                     Website</a>
             </article>
-            <article>
+            <article data-aos="flip-up">
                 <h3>Sparkle Visualizer</h3>
                 <p class="content-p">Sparkle is a configurable and customizable audio visualizer for Unity. It can
                     display audio in the form of spectrograms and waveforms from a file or microphone. I created this to
@@ -49,7 +50,7 @@
                     demo of Sparkle can be found on my Itch.io page.</p>
                 <a href="https://josephfriend.itch.io/sparkle-visualizer">Learn more on Itch.io</a>
             </article>
-            <article>
+            <article data-aos="flip-up">
                 <h3>Matrix Display Simulator</h3>
                 <p class="content-p">This is a configurable simulator of text matrix displays made for Unity. It can
                     display or scroll messages in the style of real life matrix displays like those found in busses and
@@ -58,7 +59,7 @@
                     found on my Itch.io page.</p>
                 <a href="https://josephfriend.itch.io/matrix-display">Learn more on Itch.io</a>
             </article>
-            <article>
+            <article data-aos="flip-up">
                 <h3>Rally Waffle JS</h3>
                 <p class="content-p">Rally Waffle JS is a web-based item-collecting game programmed in JavaScript, where
                     you try to collect all the maple syrups as fast as you can without running out of fuel or getting
@@ -66,7 +67,7 @@
                     deaths.</p>
                 <a href="https://rally.medievalapple.net/">Play on Rally Waffle JS's Website</a>
             </article>
-            <article>
+            <article data-aos="flip-up">
                 <h3>MI - 231 Earthbound Beginnings</h3>
                 <p class="content-p">This game was created for my Classic Game Project in MI 231, where we had to
                     recreate the core mechanics of a classic NES game. The game I picked was Earthbound Beginnings (aka
@@ -78,7 +79,7 @@
                 <a href="https://josephfriend.itch.io/earthbound-begnnings">Play on Itch.io</a>
             </article>
         </section>
-        <section id="about">
+        <section data-aos="fade-right" id="about">
             <h2>- About Me -</h2>
             <article>
                 <h3>Joseph Friend</h3>
@@ -97,7 +98,7 @@
                     has always brought to me.</p>
             </article>
         </section>
-        <section id="contact">
+        <section data-aos="fade-left" id="contact">
             <h2>- Contact -</h2>
             <address>
                 Email: <a href="mailto:frijos097@gmail.com">frijos097@gmail.com</a>
@@ -108,6 +109,8 @@
         <p>Copyright &copy; 2026 Joseph Friend</p>
     </footer>
     <script src="/index.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>AOS.init()</script>
 </body>
 
 </html>
